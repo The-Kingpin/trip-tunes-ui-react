@@ -2,10 +2,3 @@ html {
     font-size: 62.5%;
     font-family: Segoe UI, Roboto, Helvetica, Times New Roman, Arial, serif;
 }
-
-body {
-    background-image: url("./resources/IMG_20220728_175126049.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
