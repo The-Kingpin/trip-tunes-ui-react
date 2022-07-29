@@ -6,4 +6,6 @@ html {
 body {
     background-image: url("./resources/IMG_20220728_175126049.jpg");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
