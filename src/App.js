@@ -8,6 +8,7 @@ import './index.css';
 import MainPage from "./components/MainPage/MainPage";
 import Login from "./components/login/Login";
 import Register from "./components/register/Register"
+import GetButton from "./components/getLocalhost/GetButton";
 
 const AppContainer = styled.div`
   font-family: Segoe UI, Roboto, Helvetica, Times New Roman, Arial, serif;
@@ -19,6 +20,7 @@ const NotFountPage = () => (
 function App() {
     return (
         <AppContainer>
+            <GetButton />
             <BrowserRouter>
                 <Switch>
                     <Route path="/" component={MainPage} exact/>
